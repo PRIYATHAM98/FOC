@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int c,n,sum=0;
+printf("enter a value for n : ");
+scanf("%d",&n);
+for(c=1;c<=n;c++)
+if(c%2==0)
+sum-=c;
+else
+sum+=c;
+printf("sum=%d\n",sum);
+return 0;
+}
